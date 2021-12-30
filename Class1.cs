@@ -201,7 +201,7 @@ namespace WristMenu
                                 foreach (Player plr in PhotonNetwork.PlayerList)
                                 {
                                     ExitGames.Client.Photon.Hashtable gameTable = new ExitGames.Client.Photon.Hashtable();
-                                    gameTable.Add("matIndex", RedTransparent);
+                                    gameTable.Add("matIndex", RockMaterial);
                                     plr.SetCustomProperties(gameTable);
 
 
